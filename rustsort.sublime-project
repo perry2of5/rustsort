@@ -1,0 +1,57 @@
+{
+	"build_systems":
+	[
+        {
+            "shell_cmd": "cargo build",
+            "name": "cargo build",
+            "working_dir": "$project_path/"
+        },
+	],
+	"folders":
+	[
+		{
+			"folder_exclude_patterns": [ "target" ],
+			"path": "."
+		}
+	],
+	"settings":
+	{
+	  "tab_size": 4,
+    "ensure_newline_at_eof_on_save": true,
+    "font_size": 14,
+    "save_on_focus_lost": true,
+    "trim_trailing_white_space_on_save": true,
+
+    // The number of spaces a tab is considered equal to
+    "tab_size": 2,
+
+    // Set to true to insert spaces when tab is pressed
+    "translate_tabs_to_spaces": true,
+
+    // Trims white space added by auto_indent when moving the caret off the
+    // line.
+    "trim_automatic_white_space": false,
+
+    // Set to true to automatically save files when switching to a different file
+    // or application
+    "save_on_focus_lost": true,
+
+    // Save via writing to an alternate file, and then renaming it over the
+    // original file.
+    "atomic_save": true,
+
+    // The encoding to use when the encoding can't be determined automatically.
+    // ASCII, UTF-8 and UTF-16 encodings will be automatically detected.
+    "fallback_encoding": "UTF-8",
+
+    // OS X only. Valid values are true, false, and "auto". Auto will enable
+    // the setting when running on a screen 2560 pixels or wider (i.e., a
+    // Retina display). When this setting is enabled, OpenGL is used to
+    // accelerate drawing. Sublime Text must be restarted for changes to take
+    // effect.
+    "gpu_window_buffer": "auto",
+
+    // Columns in which to display vertical rulers
+    "rulers": [80, 100]
+	}
+}

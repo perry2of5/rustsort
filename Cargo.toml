@@ -1,0 +1,7 @@
+[package]
+name = "sort"
+version = "0.1.0"
+authors = ["Tim Perry <tim.v2.0@gmail.com>"]
+
+[dependencies]
+getopts = "0.2.4"
